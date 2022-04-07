@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - Entry point
- * Return: Always 0 (succeed) 
+ * main - prints the size of various type
+ * Return: 0 if exited proparly, non-zero otherwise
  */
 
 int main(void)
