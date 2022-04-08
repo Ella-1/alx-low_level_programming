@@ -11,7 +11,8 @@ int main(void)
 
 	for (c = 0; c < 10; ++c)
 {
-	putchar( c );
+	putchar(c);
+	getc(stdin);
 }
 	putchar('\n');
 	return (0);
