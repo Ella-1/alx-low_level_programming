@@ -18,11 +18,12 @@ int main(void)
 	putchar((j % 10) + '0');
 	putchar((k % 10) + '0');
 
-	if (i == 7 && j == 8 && k == 9)
+	if (i == 8 && j == 9 && k == 10)
 	continue;
 
 	putchar(',');
 	putchar(' ');
+
 }
 }
 }
