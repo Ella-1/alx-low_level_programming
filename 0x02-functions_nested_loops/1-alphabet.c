@@ -7,7 +7,7 @@
 int main(void)
 {
 	int i;
-	void print_alphabet();
+	print_alphabet();
 	for (i = 0; i <= 26; i++)
 {
 	putchar('a' + i);
