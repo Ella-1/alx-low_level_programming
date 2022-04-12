@@ -7,11 +7,13 @@
 int main(void)
 {
 	int i;
-	print_alphabet();
+	void print_alphabet(void);
+
 	for (i = 0; i <= 26; i++)
 {
 	putchar('a' + i);
 }
+
 	putchar('\n');
 	return (0);
 }
