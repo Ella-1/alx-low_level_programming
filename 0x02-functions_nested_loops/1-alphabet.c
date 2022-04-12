@@ -4,16 +4,15 @@
  *
  * Return: always 0.
  */
-int main(void)
+void print_alphabet(void)
 {
 	int i;
-	void print_alphabet(void);
 
-	for (i = 0; i <= 26; i++)
+	for (i = 0; i < 26; i++)
 {
-	putchar('a' + i);
+	_putchar('a' + i);
 }
 
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
