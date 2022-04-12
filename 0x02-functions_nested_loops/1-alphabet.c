@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * main - prints alphabet in lowercase followed by a new line.
  *
@@ -10,9 +10,9 @@ void print_alphabet(void)
 
 	for (i = 0; i < 26; i++)
 {
-	putchar('a' + i);
+	_putchar('a' + i);
 }
 
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
