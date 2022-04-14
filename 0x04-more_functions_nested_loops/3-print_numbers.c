@@ -1,19 +1,19 @@
-#include "main.c"
+#include "main.h"
 
 /**
- * print_numbers - prints numbers from(0 through 9)
- * @c: inpute to value check.
- * Return: int.
+ * print_numbers - function that prints the numbers, from 0 to 9.
+ *
+ * Return: nothing.
  */
 
 void print_numbers(void)
 {
-	int c;
-	c = 0
+	int n = 0;
 
-	for (c = 0; c < 10; c++)
+	while (n < 10)
 	{
-		_putchar('0' + c);
+		_putchar(n + '0');
+		n += 1;
 	}
 	_putchar('\n');
 }
