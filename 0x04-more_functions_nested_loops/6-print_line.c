@@ -1,24 +1,23 @@
 #include "main.h"
 
 /**
- * print line - function thst draws a stright line.
- * @n: inpute value to check
+ * more_numbers -  function that prints 10 times the numbers, from 0 to 14.
+ *
  * Return: nothing.
  */
 
-void print_line(int n)
+void more_numbers(void)
 {
-	int i = 0;
+	int x, y;
 
-	while (i < n)
+	for (x = 0; x < 10; x++)
 	{
-		if(n > 0)
+		for (y = 0; y <= 14; y++)
 		{
-			_putchar(95);
-			i += 1;
+			if (y > 9)
+				_putchar((y / 10) + '0');
+			_putchar((y % 10) + '0');
 		}
-		else
-			_putchar('\n');
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
